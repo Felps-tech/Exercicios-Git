@@ -1,0 +1,117 @@
+/* Define a cor de fundo e o estilo de fonte padrão para a página: */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  /* Estiliza o cabeçalho da página: */
+  header {
+    background-color: #ac8654;
+    padding: 20px;
+    border:  solid 2px black;
+    text-align: center;
+  }
+  
+  .imagem-perfil {
+    width: 100px;
+    height: 100px;
+    border: solid 2px black;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .nome {
+    color: #fff;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  #sobre h2 {
+    color: #333;
+    background-color: #ddd;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  #sobre p {
+    text-align: justify;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-right: 500px;
+  }
+
+  #habilidades h2 {
+    color: #333;
+    background-color: #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  #habilidades ul {
+    padding: 10px;
+    margin-left: 40px;
+    list-style:symbols(square)  inside;
+  }
+  
+  #habilidades li {
+    margin-bottom: 5px;
+  }
+  
+  #habilidades ul ul {
+    margin-left: 5px;
+  }
+  
+  #habilidades strong {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #projetos h2 {
+    color: #333;
+    background-color: #ddd;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  #projetos p{
+    text-align: justify;
+    margin-left: 40px;
+  }
+  
+   #contato h2 {
+    color: #333;
+    background-color: #ddd;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position:relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  footer p {
+    margin: 0;
+    padding: 0;
+  }
+
+  
